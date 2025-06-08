@@ -101,7 +101,7 @@ def dis_predict():
         return jsonify({'prediction': label})
     finally:
         if os.path.exists(filepath):
-            os.remove(filepaths)
+            os.remove(filepath)
 
 # ==================== Run App ====================
 if __name__ == '__main__':
