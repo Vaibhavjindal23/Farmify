@@ -1,0 +1,7 @@
+Flask
+numpy
+pandas
+scikit-learn
+requests
+pandas
+tensorflow>=2.19.0
